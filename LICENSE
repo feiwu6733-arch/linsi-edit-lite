@@ -1,21 +1,42 @@
-MIT License
+灵思剪辑 Lite 个人非商业使用许可协议 v1.0
+Linsi Edit Lite Personal Non-Commercial License v1.0
 
-Copyright (c) 2026 Linsi Lite contributors
+版权所有 © 2026 灵思（Linsi）。保留所有权利。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+一、许可范围
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+在遵守本协议全部条款的前提下，灵思授予单个自然人一项有限的、可撤销的、不可转让的、非独占许可：
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. 在个人设备上下载、安装和运行本软件；
+2. 仅将本软件用于个人、非商业的学习、体验与本地创作；
+3. 仅为理解和学习目的查看本仓库公开的源代码。
+
+二、禁止行为
+
+未经灵思事先书面授权，任何个人或组织不得：
+
+1. 出售、转售、出租、出借、收费部署、捆绑销售本软件，或使用本软件提供任何收费、营利或组织内部服务；
+2. 修改、改编、翻译、二次开发本软件，或基于本软件、源代码、界面、动效、模板及随附素材制作衍生作品；
+3. 复制、重新打包、换标、再发布、再许可、镜像分发本软件或其任何实质部分；
+4. 删除、遮挡或修改灵思的名称、商标、版权声明、许可声明或产品来源标识；
+5. 将本软件或其中的界面、动效、模板、素材用于开发、推广或运营竞争产品；
+6. 规避本软件中的使用须知、授权提示、功能限制或其他权利保护措施。
+
+三、用户素材与输出
+
+您应确保导入的文字、图片、音频和视频拥有合法权利，并自行承担相关责任。本协议不向您授予任何第三方素材的权利。您对自己合法拥有的原创素材及输出内容享有相应权利，但不得借助本软件提供收费剪辑、收费部署或其他商业服务。
+
+四、违规处理
+
+违反本协议时，许可自动终止。灵思有权向代码托管、应用发布、内容传播或交易平台提交侵权投诉，要求删除、下架或停止交易，并保留依法追究侵权责任及损失的权利。
+
+五、免责声明
+
+本软件按“现状”提供，不附带任何明示或默示保证。在法律允许的最大范围内，权利人不对使用或无法使用本软件导致的任何损失承担责任。
+
+六、商业或二次开发授权
+
+需要商业使用、组织使用、修改、二次开发、再发布或集成授权，请通过灵思官网联系并取得单独的书面许可：
+https://os.yanbeiai.com/
+
+下载、安装、运行或继续使用本软件，即表示您已阅读、理解并同意本协议。

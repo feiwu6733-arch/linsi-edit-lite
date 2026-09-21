@@ -11,9 +11,10 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-v0.4.0-73ded1?style=flat-square&labelColor=10232c">
+  <img alt="version" src="https://img.shields.io/badge/version-v0.4.1-73ded1?style=flat-square&labelColor=10232c">
   <img alt="desktop" src="https://img.shields.io/badge/Windows-Chrome%20%2F%20Edge-78b9ff?style=flat-square&labelColor=10232c">
   <img alt="local" src="https://img.shields.io/badge/media-local%20only-73ded1?style=flat-square&labelColor=10232c">
+  <img alt="license" src="https://img.shields.io/badge/license-personal%20use%20only-f0a37d?style=flat-square&labelColor=10232c">
 </p>
 
 灵思剪辑 Lite 是一个可在电脑本地部署的轻量视频编辑器。导入一条视频，即可完成片段剪辑、画布裁切、音乐混音、手动字幕、图文图层、20 款精选动效和无水印 MP4 导出。视频与工程保存在本机，无需配置远程 AI 接口。
@@ -30,9 +31,10 @@
 
 <p align="center">
   <a href="docs/assets/before-after-demo.mp4">
-    <img src="docs/assets/before-after-demo.gif" alt="灵思剪辑 Lite 动效前后对比" width="760">
+    <img src="docs/assets/pro-comparison.png" alt="灵思 Lite 与 PRO版自动剪辑能力对比" width="100%">
   </a>
-  <br><sub>左：原始版式 · 右：加入字幕、卡片和动效后的成片 · 点击播放高清 MP4</sub>
+  <br><b>▶ 点击对比图播放 9 秒动效成片演示</b>
+  <br><sub>Lite 手动完成字幕、卡片和动效；PRO版使用 AI 智能匹配与 AI 动效减少重复操作</sub>
 </p>
 
 <table>
@@ -50,15 +52,11 @@
   </tr>
 </table>
 
-<p align="center">
-  <img src="docs/assets/pro-comparison.png" alt="灵思 Lite 与 PRO版能力对比" width="100%">
-</p>
-
 > Lite 提供手动/SRT 字幕、20 款精选动效、图文图层、音乐混音、工程保存和本地导出。AI 自动剪辑、自动字幕、删停顿、对标研究、账号追踪与 AI 自生长体系由灵思 PRO版提供。
 
 ## 能做什么
 
-| 能力 | Lite 开源版体验 |
+| 能力 | Lite 个人版体验 |
 | --- | --- |
 | ✂️ 多段剪辑 | 分割、删除、复制、排序、裁切、0.25×～4× 变速、独立音量与静音 |
 | 🖼️ 画布控制 | 原比例、9:16、16:9、1:1，完整显示/铺满裁切，缩放、移动和安全区 |
@@ -77,6 +75,17 @@
 4. Chrome / Edge 会打开 `http://127.0.0.1:5031`，建议窗口宽度 1100px 以上。
 
 首次体验可直接点击「打开人物演示」，无需准备素材。建议从 30 秒～3 分钟口播视频开始。
+
+## 使用授权
+
+灵思剪辑 Lite 仅授权个人、非商业的学习与体验。第一次打开会显示使用须知，需要阅读并确认后才能进入编辑台。
+
+- 允许：个人设备安装、本地体验、个人非商业创作和学习源代码。
+- 禁止：出售、转售、收费部署、捆绑销售或用本软件提供营利服务。
+- 禁止：未经书面授权修改、二次开发、换标、重新打包、再发布或制作软件衍生版本。
+- 违规处理：我们会向代码托管、应用发布、内容传播或交易平台投诉并要求下架，同时保留依法追究责任的权利。
+
+完整条款见 [个人非商业使用许可协议](LICENSE)。需要商业使用或二次开发授权，请通过灵思官网联系。
 
 ## GitHub 新版本提醒
 
@@ -129,6 +138,6 @@ python serve.py --no-browser
 
 PRO版把一次剪辑接入对标研究、账号追踪、AI 自生长、选题脚本、AI 智能匹配和 AI 动效，帮助账号持续产出内容。
 
-**[进入灵思官网体验 PRO版](https://os.yanbeiai.com/?utm_source=linsi-edit-lite&utm_medium=readme-footer)** · 微信 **zxai2626**，备注「剪辑开源体验」。
+**[进入灵思官网体验 PRO版](https://os.yanbeiai.com/?utm_source=linsi-edit-lite&utm_medium=readme-footer)** · 微信 **zxai2626**，备注「剪辑 Lite 体验」。
 
 本工程按公开白名单抽取基础组件并独立实现精简界面，不包含商业版服务端、私人模板、业务数据或模型。
