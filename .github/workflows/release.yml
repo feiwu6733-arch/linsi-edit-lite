@@ -1,0 +1,67 @@
+name: Publish Linsi Edit Lite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - src/**
+      - public/**
+      - scripts/**
+      - tests/**
+      - docs/**
+      - package.json
+      - package-lock.json
+      - serve.py
+      - updater.py
+      - vite.config.js
+      - aacWorkerPlugin.mjs
+      - RELEASE_NOTES.md
+      - .github/workflows/release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: linsi-edit-lite-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: npm ci
+      - name: Test and build
+        run: |
+          npm test
+          python -m unittest discover -s tests -p 'test_update*.py' -v
+          python -m py_compile serve.py updater.py scripts/package_release.py
+          npm run build
+      - name: Publish version if new
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if gh release view "v$VERSION" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Version v$VERSION already exists; increase package.json before publishing again."
+            exit 0
+          fi
+          python scripts/package_release.py --stable-name
+          gh release create "v$VERSION" \
+            "release/linsi-edit-lite-$VERSION.zip" \
+            "release/linsi-edit-lite-$VERSION.zip.sha256" \
+            "release/update.json" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "灵思剪辑 Lite v$VERSION" \
+            --notes-file RELEASE_NOTES.md \
+            --latest

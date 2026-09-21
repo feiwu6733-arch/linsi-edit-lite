@@ -1,0 +1,9 @@
+node_modules/
+dist/
+artifacts/
+.local/
+release/
+__pycache__/
+*.log
+.env*
+.linsi-edit-update.lock

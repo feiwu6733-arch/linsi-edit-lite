@@ -1,0 +1,3 @@
+import * as p from './premiumMotionScenes.js';
+export const primary={"linsi-caption-emphasis":p.drawCaptionEmphasis,"linsi-identity-tag":p.drawIdentityTag,"linsi-checklist":p.drawChecklist,"linsi-quote-lock":p.drawQuoteLock,"linsi-definition":p.drawDefinition,"linsi-step-path":p.drawStepPath,"linsi-before-after":p.drawBeforeAfterPolished,"linsi-thesis-lock":p.drawThesisLock,"linsi-subject-frame":p.drawSubjectFrame,"linsi-evidence-board":p.drawEvidenceBoard,"linsi-brand-chapter":p.drawBrandChapter,"linsi-soft-focus-type":p.drawSoftFocusType,"linsi-growth-curve":p.drawGrowthCurve};
+export const setOptions=opts=>p.setLiteOptions(opts);
