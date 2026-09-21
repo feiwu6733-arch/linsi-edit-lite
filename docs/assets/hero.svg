@@ -1,0 +1,55 @@
+<svg width="1400" height="480" viewBox="0 0 1400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1310" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131D"/>
+      <stop offset="0.52" stop-color="#0D2028"/>
+      <stop offset="1" stop-color="#102B30"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#72E3D5"/>
+      <stop offset="1" stop-color="#80B9FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="480" rx="34" fill="url(#bg)"/>
+  <circle cx="1170" cy="44" r="250" fill="#66DDD0" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="132" cy="418" r="205" fill="#4D91FF" fill-opacity="0.12" filter="url(#glow)"/>
+  <rect x="66" y="62" width="72" height="72" rx="22" fill="url(#brand)"/>
+  <path d="M89 100C89 83 109 75 121 87C132 98 126 118 110 119C98 120 89 112 89 100Z" stroke="#07131C" stroke-width="6"/>
+  <path d="M100 111L125 86" stroke="#07131C" stroke-width="6" stroke-linecap="round"/>
+  <text x="162" y="88" fill="#80E4D7" font-size="18" font-weight="700" letter-spacing="4" font-family="Segoe UI, Microsoft YaHei, sans-serif">LOCAL VIDEO STUDIO</text>
+  <text x="162" y="129" fill="#B7C9D1" font-size="19" font-weight="600" letter-spacing="2" font-family="Segoe UI, Microsoft YaHei, sans-serif">linsi-edit-lite</text>
+  <text x="66" y="235" fill="#F4FAFC" font-size="70" font-weight="800" font-family="Microsoft YaHei, Segoe UI, sans-serif">灵思剪辑 Lite</text>
+  <text x="66" y="291" fill="#B9CDD4" font-size="25" font-weight="500" font-family="Microsoft YaHei, Segoe UI, sans-serif">让字幕、图文和动效，真正落进一条成片里。</text>
+  <g font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="18" font-weight="700">
+    <rect x="66" y="344" width="156" height="54" rx="16" fill="#12343B" stroke="#3F7D7E"/>
+    <text x="104" y="378" fill="#CFF8F2">本地运行</text>
+    <rect x="238" y="344" width="156" height="54" rx="16" fill="#12343B" stroke="#3F7D7E"/>
+    <text x="276" y="378" fill="#CFF8F2">无水印导出</text>
+    <rect x="410" y="344" width="176" height="54" rx="16" fill="#12343B" stroke="#3F7D7E"/>
+    <text x="444" y="378" fill="#CFF8F2">20 款精选动效</text>
+  </g>
+  <g transform="translate(820 76)">
+    <rect width="500" height="326" rx="26" fill="#0A151E" stroke="#2E5560"/>
+    <rect x="28" y="28" width="444" height="42" rx="11" fill="#12242E"/>
+    <circle cx="52" cy="49" r="6" fill="#78DFD2"/>
+    <rect x="72" y="44" width="116" height="10" rx="5" fill="#58747F"/>
+    <rect x="28" y="92" width="84" height="184" rx="14" fill="#10222C"/>
+    <rect x="132" y="92" width="216" height="184" rx="14" fill="#071018" stroke="#25444D"/>
+    <rect x="368" y="92" width="104" height="184" rx="14" fill="#10222C"/>
+    <rect x="157" y="113" width="166" height="118" rx="8" fill="#152C36"/>
+    <rect x="181" y="139" width="119" height="12" rx="6" fill="#F4FAFC"/>
+    <rect x="199" y="161" width="83" height="8" rx="4" fill="#72E3D5"/>
+    <rect x="161" y="242" width="158" height="9" rx="4.5" fill="#7B6DB2"/>
+    <rect x="44" y="112" width="52" height="11" rx="5" fill="#72E3D5" fill-opacity="0.8"/>
+    <rect x="44" y="139" width="48" height="8" rx="4" fill="#4C6670"/>
+    <rect x="44" y="160" width="40" height="8" rx="4" fill="#4C6670"/>
+    <rect x="384" y="114" width="68" height="10" rx="5" fill="#72E3D5"/>
+    <rect x="384" y="145" width="68" height="7" rx="3.5" fill="#4C6670"/>
+    <rect x="384" y="166" width="55" height="7" rx="3.5" fill="#4C6670"/>
+    <rect x="28" y="293" width="444" height="9" rx="4.5" fill="#1D3944"/>
+    <rect x="28" y="293" width="279" height="9" rx="4.5" fill="#6EDDD0"/>
+  </g>
+</svg>
